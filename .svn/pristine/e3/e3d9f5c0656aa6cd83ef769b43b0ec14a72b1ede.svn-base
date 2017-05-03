@@ -1,0 +1,44 @@
+$(".loging ul li").eq(0).click(function() {
+	$(".mod").eq(1).show().children(".mod_login").show()
+	var n = (window.innerHeight - $(".mod").eq(1).children(".mod_login").height() - 100) / 2;
+	$(".mod").eq(1).children(".mod_login").css("top", n)
+})
+$(".loging ul li").eq(2).click(function() {
+	$(".mod").eq(2).show().children(".mod_login").show()
+	var n = (window.innerHeight - $(".mod").eq(2).children(".mod_login").height() - 100) / 2;
+	$(".mod").eq(2).children(".mod_login").css("top", n)
+})
+$(".xx").click(function() {
+	$(".mod").hide()
+	$(".mod_login").hide()
+	$(".modtwo").hide()
+})
+$(".morn img").click(function(e) {
+	e.stopPropagation()
+	$(".mod").eq(0).show().children(".modtwo").show();
+	$(".mod").eq(0).children(".modtwo").children(".mod-left").find("img").first().attr("src", $(this).attr("src"));
+	var q = 0;
+	$(".small").empty()
+	$(this).next(".hide").children("span").each(function() {
+		$(".small").append("<img src=" + $(this).html() + " />" + " &nbsp;")
+	})
+	$(".small img").click(function() {
+		$(".mod-left>img").attr("src", $(this).attr("src"))
+	})
+})
+
+$("header ul li").eq(0).click(function(){
+	location.href="../WebCode/index.html"
+})
+$("header ul li").eq(1).click(function(){
+	location.href="../WebCode/classify.html"
+})
+$("header ul li").eq(2).click(function(){
+	location.href="../WebCode/Fashion.html"
+})
+$("header ul li").eq(3).click(function(){
+	location.href="../WebCode/Best.html"
+})
+$("header ul li").eq(4).click(function(){
+	location.href="../WebCode/Story.html"
+})

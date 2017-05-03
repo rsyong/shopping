@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>订单</title>
+<link rel="stylesheet" href="lib/bootstrap/bootstrap.min.css" />
+<link rel="stylesheet" href="css/header.css" />
+<link rel="stylesheet" href="css/index.css" />
+<script type="text/javascript" src="lib/jq/jquery-1.12.3.min.js" ></script>
+</head>
+<body>
+	<div class="loging">
+		<div class="container">
+			<ul>
+				<li>请登录</li>
+				<li>/</li>
+				<li>注册</li>
+				<li>/</li>
+				<li>购物车<span class="numb2">(0)</span>
+					<div class="gouwuche_ul">
+						<form class="queding">
+							<input type="submit" value="购买"/>
+						</form>
+					</div>
+				</li>
+				<li>/</li>
+				<li>订单</li>
+			</ul>
+		</div>
+	</div>
+	<header class="container">
+		<div>CLOTHING DESIGN</div>
+		<span class="anniu visible-xs visible-sm">111</span>
+		<ul id="header_ul">
+			<li>首页</li>
+			<li>产品分类</li>
+			<li>时尚资讯</li>
+			<li>热卖专区</li>
+			<li>品牌故事</li>
+		</ul>
+	</header>
+	<div class="bar">
+		<div class="container">
+			<div class="bar-title">订单中心</div>
+		</div>
+	</div>
+	<div class="listd">
+		<div class="container">
+			<div class="bar-left">
+				<dl>
+					<dt>我的交易</dt>
+					<dd class="active">订单管理</dd>
+					<dd>申请退货</dd>
+					<dd>收货地址</dd>
+				</dl>
+				<dl>
+					<dt>我的账户</dt>
+					<dd>我的资料</dd>
+				</dl>
+			</div>
+			<div class="bar-right"></div>
+		</div>
+	</div>
+	<footer class="margintop">
+		<div class="container">
+			<a href="">首页</a>|
+			<a href="">产品分类</a>|
+			<a href="">时尚资讯</a>|
+			<a href="">热卖专区</a>|
+			<a href="">品牌故事</a>
+			<div class="fo">XXX有限公司</div>
+		</div>
+	</footer>
+</body>
+<script type="text/javascript" src="js/my.js" ></script>
+</html>

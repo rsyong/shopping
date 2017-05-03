@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="lib/bootstrap/bootstrap.min.css" />
+<link rel="stylesheet" href="lib/swiper/swiper.min.css" />
+<link rel="stylesheet" href="css/index.css" />
+<link rel="stylesheet" href="css/header.css" />
+<script type="text/javascript" src="lib/jq/jquery-1.12.3.min.js" ></script>
+<title>Story</title>
+</head>
+<body>
+	<div class="loging">
+		<div class="container">
+			<ul>
+				<li>请登录</li>
+				<li>/</li>
+				<li>注册</li>
+				<li>/</li>
+				<li>购物车</li>
+				<li>/</li>
+				<li>订单</li>
+			</ul>
+		</div>
+	</div>
+	<header class="container">
+		<div>CLOTHING DESIGN</div>
+		<span class="anniu visible-xs visible-sm">111</span>
+		<ul>
+			<li>首页</li>
+			<li>产品分类</li>
+			<li>时尚资讯</li>
+			<li>热卖专区</li>
+			<li class="active">品牌故事</li>
+		</ul>
+	</header>
+	<div class="container-fluid" style="background: #F4F4F4;">
+		<div class="container">
+			<img src="img/12.jpg" class="img-responsive"/>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row margintop">
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<div class="">
+					<img class="img-responsive center-block" src="img/3.png" />
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<h2 class="lineheght">品牌故事</h2>
+				<div class="text">我们是一家专注”韩风高品质童装“品牌。以“恬静自由舒适质感”为
+					品牌理念，以“倾听孩子的心声”为品牌宗旨，紧随韩国前沿时尚。致
+					力于3-9岁儿童提供服饰上的韩潮乐园。结合产品的创意设计和优质面
+					料，打造韩风高品质童装第一品牌
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="margintop container-fluid bg">
+		<div class="container text-center">
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					<h2 class="margintop">NO1.</h2>
+					<p class="margintop">精选优质面料</p>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12"><img src="img/a.png" class="img-responsive"/></div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12"><img src="img/b.png" class="img-responsive"/></div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					<h2 class="margintop">NO2.</h2>
+					<p class="margintop">完美搭配设计</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					<h2 class="margintop">NO3.</h2>
+					<p class="margintop">精工细造而成</p>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12"><img src="img/c.png" class="img-responsive"/></div>
+			</div>
+		</div>
+	</div>
+	<div>
+		<div class="container">
+			<h1 class="margintop text-center">品牌理念</h1>
+			<h3 class="text-center">恬静自由 ·舒适质感</h3>
+			<div class="row margintop">
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					<img src="img/13.jpg" class="img-responsive"/>
+				</div>
+				<div class="col-lg-6 col-md-6 col-sm-6 col-xs-12">
+					<img src="img/14.jpg" class="img-responsive" />
+					<p class="lilian_p text-center">拥有百人设计团队，他们善于捕捉韩风流行元素，奔跑在韩国流行最前线
+						本着打造“纯韩风、高品质、最时尚”的特色
+						完美的为中国宝宝提供时尚潮流高端品质个安全健康的穿着
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="margintop">
+		<div class="container">
+			<a href="">首页</a>|
+			<a href="">产品分类</a>|
+			<a href="">时尚资讯</a>|
+			<a href="">热卖专区</a>|
+			<a href="">品牌故事</a>
+			<div class="fo">XXX有限公司</div>
+		</div>
+	</footer>
+	
+	<script type="text/javascript" src="lib/swiper/swiper.min.js" ></script>
+	<script type="text/javascript" src="js/swi.js" ></script>
+	<script type="text/javascript" src="js/my.js" ></script>
+</body>
+</html>

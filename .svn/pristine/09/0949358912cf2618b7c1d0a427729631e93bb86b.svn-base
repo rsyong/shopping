@@ -1,0 +1,76 @@
+$(".log input[value='注册']").click(function(){
+	$.ajax({
+		type:"get",
+		url:"http://59.110.136.227:8080/Baobeijie/register/userReg",
+		async:true,
+		dataType:'JSON',
+		data:{
+			username:"admin",
+			userPhone:$("input[name='phone']").val(),
+			userPwd:$(".pwd2").val(),
+			userRpPwd:$(".pwd2").val(),
+		},
+		success:function(data){
+			if(data.success=='OK'){
+				alert("注册成功");
+				$(".mod_login,.mod").hide();
+			}
+		}
+	});
+});
+
+$(".log input[value='登录']").click(function(){
+	var u=$("input[name='phonelogin']").val();
+	$.ajax({
+		type:"get",
+		url:"http://59.110.136.227:8080/Baobeijie/interface/login?username=admin&password=123456",
+		async:true,
+		dataType:'JSON',
+		data:{
+			username:"admin",
+			userPhone:u,
+			passworld:$(".pwd1").val(),
+		},
+		success:function(data){
+			if(data.success=="success"){
+				$(".mod_login,.mod").hide();
+				localStorage.user=u;
+				$(".loging ul li").eq(0).html(localStorage.user)
+			}
+		}
+	});
+})
+
+if(localStorage.user){
+	$(".loging ul li").eq(0).html(localStorage.user)
+}
+
+$(function(){
+	$.ajax({
+		type:"get",
+		url:"http://59.110.136.227:8080/Baobeijie/ shopInfo/listShopInfo",
+		async:true,
+		dataType:'JSON',
+		success:function(datad){
+//			alert(data["shopInfoList"][0]["sname"])
+//			alert(data["shopInfoList"].length)
+			var app = new Vue({
+			    el: '.morn',
+			    data: {
+			      shopInfoList: datad["shopInfoList"]
+			    }
+			})
+		}
+	});
+	
+	$.ajax({
+		type:"get",
+		url:"http://59.110.136.227:8080/Baobeijie/shopInfo/downLoads",
+		async:true,
+		dataType:"JSON",
+		data:{
+			filename:'832d186b7a8a4e93ab53fbfa570d9de5.jpg'
+		}
+	});
+})
+

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<link rel="stylesheet" href="css/index.css" />
+	</head>
+	<body>
+		<div class="alllist">
+			<div class="bar-title-fu">我的交易>订单管理</div>
+			<div class="gouwuche_li">
+				<div class="gouwuche_li_left">
+					<img src="img/7.jpg"/>
+				</div>
+				<div class="gouwuche_li_right">
+					<p>女童公主裙夏装2016新</p>
+					<p>1件</p>
+					<p>价格1</p>
+				</div>
+				<div class="shancu"><span class="zidingyi">删除</span></div>
+				<div class="cleaer"></div>
+			</div>
+		</div>
+		<div class="tuihuo">
+			<div class="bar-title-fu">我的交易>申请退货</div>
+			<div class="gouwuche_li">
+				<div class="gouwuche_li_left">
+					<img src="img/7.jpg"/>
+				</div>
+				<div class="gouwuche_li_right">
+					<p>女童公主裙夏装2016新</p>
+					<p>1件</p>
+					<p>价格1</p>
+				</div>
+				<div class="shancu"><span class="zidingyi">取消订单</span></div>
+				<div class="cleaer"></div>
+			</div>
+		</div>
+		<div class="home">
+			<div class="bar-title-fu">我的交易>收货地址</div>
+			<div class="dizhi">
+				<div><span>冉术勇</span><span class="phone">13594264564</span></div>
+				<div><span class="moren">[默认地址]</span>重庆市沙坪坝区小龙坎街道天陈路44号</div>
+			</div>
+			<div class="tijiao"><input type="button" value="新添地址" onclick="document.getElementsByClassName('tianjia')[0].style.display='block';"/></div>
+			<div class="tianjia">
+				<form>
+					<table>
+						<tr>
+							<td><span>*</span>姓名：</td>
+							<td><input type="text" /></td>
+						</tr>
+						<tr>
+							<td><span>*</span>电话：</td>
+							<td><input type="text" /></td>
+						</tr>
+						<tr>
+							<td><span>*</span>收货地址：</td>
+							<td><input type="text" /></td>
+						</tr>
+					</table>
+					<div class="hr"></div>
+					<div class="tijiao"><input type="submit" value="保存收货地址"/></div>
+				</form>
+			</div>
+		</div>
+		<div class="detlie">
+			<div class="bar-title-fu">我的账户>我的资料</div>
+			<form>
+				<table cellpadding="8px">
+					<tr>
+						<td>登录名：</td>
+						<td>13594132465</td>
+					</tr>
+					<tr>
+						<td><span>*</span>姓名：</td>
+						<td><input type="text" placeholder="请输入你的姓名"/></td>
+					</tr>
+					<tr>
+						<td><span>*</span>性别：</td>
+						<td><label for="nan"><input type="radio" value="男" id="nan" name="box"/> 男</label>
+							<label for="nv"><input type="radio" value="女" id="nv" name="box"/> 女</label>
+						</td>
+					</tr>
+					<tr>
+						<td><span>*</span>移动电话：</td>
+						<td>13594244561 <a href="JavaScript：">修改</a></td>
+					</tr>
+					<tr>
+						<td><span>*</span>所在地址：</td>
+						<td><input type="text" placeholder="请填写你的收货地址"/></td>
+					</tr>
+				</table>
+				<div class="hr"></div>
+				<div class="tijiao"><input type="submit" value="提交"/><input type="reset" value="重置"/></div>
+			</form>
+		</div>
+	</body>
+</html>

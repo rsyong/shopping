@@ -1,0 +1,37 @@
+$(".log input[value='注册']").click(function(){
+	$.ajax({
+		type:"get",
+		url:"http://59.110.136.227:8080/Baobeijie/register/userReg",
+		async:true,
+		dataType:'JSON',
+		data:{
+			username:"admin",
+			userPhone:$("input[name='phone']").val(),
+			userPwd:$(".pwd2").val(),
+			userRpPwd:$(".pwd2").val(),
+		},
+		success:function(data){
+			if(data.success=='OK'){
+				alert("注册成功");
+				$(".mod_login,.mod").hide();
+			}
+		}
+	});
+});
+
+$(".log input[value='登录']").click(function(){
+	$.ajax({
+		type:"get",
+		url:"http://59.110.136.227:8080/Baobeijie/interface/login?username=admin&passworld=111111",
+		async:true,
+		dataType:'JSON',
+		data:{
+			username:"admin",
+			userPhone:$("input[name='phonelogin']").val(),
+			Passworld:$(".pwd1").val(),
+		},
+		success:function(data){
+			alert(data)
+		}
+	});
+})

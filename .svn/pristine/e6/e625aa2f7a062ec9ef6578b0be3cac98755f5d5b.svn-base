@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="lib/bootstrap/bootstrap.min.css" />
+<link rel="stylesheet" href="css/index.css" />
+<link rel="stylesheet" href="css/header.css" />
+<script type="text/javascript" src="lib/jq/jquery-1.12.3.min.js" ></script>
+<title>分类</title>
+</head>
+<body>
+	<div class="loging">
+		<div class="container">
+			<ul>
+				<li>请登录</li>
+				<li>/</li>
+				<li>注册</li>
+				<li>/</li>
+				<li>购物车</li>
+				<li>/</li>
+				<li>订单</li>
+				<li>/</li>
+				<li>已购买</li>
+			</ul>
+		</div>
+	</div>
+	<header class="container">
+		<div>CLOTHING DESIGN</div>
+		<ul>
+			<li>首页</li>
+			<li class="active">产品分类</li>
+			<li>时尚资讯</li>
+			<li>热卖专区</li>
+			<li>品牌故事</li>
+		</ul>
+	</header>
+	<div>
+		<img class="img-responsive" src="img/9.jpg" />
+	</div>
+	<div class="container">
+		<table>
+			<tr>
+				<td rowspan="2" colspan="2">
+					<img src="img/10.jpg" class="img-responsive"/>
+				</td>
+				<td>
+					<img src="img/11.png" class="img-responsive"/>
+				</td>
+				<td>
+					<img src="img/12.png" class="img-responsive"/>
+				</td>
+			</tr>
+			<tr>
+				<td></td>
+				<td></td>
+				<td></td>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

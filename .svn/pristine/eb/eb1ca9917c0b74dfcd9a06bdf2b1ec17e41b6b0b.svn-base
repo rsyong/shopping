@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="lib/bootstrap/bootstrap.min.css" />
+<link rel="stylesheet" href="css/index.css" />
+<link rel="stylesheet" href="css/header.css" />
+<script type="text/javascript" src="lib/jq/jquery-1.12.3.min.js" ></script>
+<title>时尚</title>
+</head>
+<body>
+	<div class="loging">
+		<div class="container">
+			<ul>
+				<li>请登录</li>
+				<li>/</li>
+				<li>注册</li>
+				<li>/</li>
+				<li>购物车</li>
+				<li>/</li>
+				<li>订单</li>
+				<li>/</li>
+				<li>已购买</li>
+			</ul>
+		</div>
+	</div>
+	<header class="container">
+		<div>CLOTHING DESIGN</div>
+		<ul>
+			<li>首页</li>
+			<li>产品分类</li>
+			<li class="active">时尚资讯</li>
+			<li>热卖专区</li>
+			<li>品牌故事</li>
+		</ul>
+	</header>
+	<div>
+		<img class="img-responsive" src="img/9.jpg" />
+	</div>
+	<div class="container margintop">
+		<div class="row">
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12"><img class="img-responsive" src="img/14.png" /></div>
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<h3 class="margintop">关注出口儿童服装安全</h3>
+				<p class="p">纺织品和服装是我国传统的出口产品，占我国出口商品总额
+					的20%左右，在我国对外贸易中所处地位非常重要。但是近
+					年来纺织品服装也是欧美国家利用技术、环境、健康、卫生
+					安全以及关税措施等为手段设置限制最多的产品之一，尤其
+					是对儿童服装实施了更为严格的监控。据最新统计...
+				</p>
+			</div>
+		</div>
+	</div>
+	<div class="container margintop">
+		<div class="li">
+			<div class="li_left">
+				<div class="li_left_p">07</div>
+				<p>2017/02</p>
+			</div>
+			<div class="li_right">
+				<h4>少年牛仔A&Y 98新季产品时尚型录发布</h4>
+				<p>随着天气渐渐转凉，近日，A&Y 98本季新品陆续上新。这次依然延续上一季活力少年的主题，来自俄罗斯的小模特古灵精怪随着天气渐渐转凉，近日，A&Y 98本季新品陆续上新。这次依然延续上一季活力少年...</p>
+			</div>
+		</div>
+		<div class="li">
+			<div class="li_left">
+				<div class="li_left_p">07</div>
+				<p>2017/02</p>
+			</div>
+			<div class="li_right">
+				<h4>少年牛仔A&Y 98新季产品时尚型录发布</h4>
+				<p>随着天气渐渐转凉，近日，A&Y 98本季新品陆续上新。这次依然延续上一季活力少年的主题，来自俄罗斯的小模特古灵精怪随着天气渐渐转凉，近日，A&Y 98本季新品陆续上新。这次依然延续上一季活力少年...</p>
+			</div>
+		</div>
+		<div class="li">
+			<div class="li_left">
+				<div class="li_left_p">07</div>
+				<p>2017/02</p>
+			</div>
+			<div class="li_right">
+				<h4>少年牛仔A&Y 98新季产品时尚型录发布</h4>
+				<p>随着天气渐渐转凉，近日，A&Y 98本季新品陆续上新。这次依然延续上一季活力少年的主题，来自俄罗斯的小模特古灵精怪随着天气渐渐转凉，近日，A&Y 98本季新品陆续上新。这次依然延续上一季活力少年...</p>
+			</div>
+		</div>
+	</div>
+	<footer class="margintop">
+		<div class="container">
+			<a href="">首页</a>|
+			<a href="">产品分类</a>|
+			<a href="">时尚资讯</a>|
+			<a href="">热卖专区</a>|
+			<a href="">品牌故事</a>
+			<div class="fo">XXX有限公司</div>
+		</div>
+	</footer>
+	<script type="text/javascript" src="js/my.js" ></script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+header{
+	padding-top: 32px;
+}
+header>div,header>ul{
+	line-height: 90px;
+}
+header div:first-child{
+	float: left;
+}
+header ul{
+	float: right;
+}
+header ul li{
+	float: left;
+	list-style: none;
+	padding: 0 30px;
+	cursor: pointer;
+}
+header ul li:hover{
+	color: #FFC001;
+}
+header ul li:hover .gouwuche_ul{
+	display: block;
+}
+header .active{
+	color: #FFC001;
+}
+footer{
+	background: #434343;
+	color: #888;
+}
+footer .container{
+	padding: 20px;
+	text-align: center;
+}
+footer .container>a{
+	padding: 0 15px;
+	font-size: 14px;
+	color: #888;
+}
+footer .container>a:hover{
+	color: #fff;
+	text-decoration: none;
+}
+.fo{
+	margin-top: 10px;
+	color: #888;
+}
+.loging{
+	position: fixed;
+	width: 100%;
+	background: #262626;
+	color: #fff;
+	height: 32px;
+	line-height: 32px;
+	z-index: 100;
+	top: 0;
+}
+.loging ul li{
+	float: left;
+	list-style: none;
+	padding: 0 12px;
+	font-size: 13px;
+	cursor: pointer;
+	white-space: nowrap;
+}
+.loging ul{
+	float: right;
+	padding: 0;
+	margin: 0;
+}
+.loging ul li:hover{
+	color: #FFC001;
+}
+.anniu{
+	float: right;
+	line-height: 90px;
+}
+@media only screen and (min-width: 100px) and (max-width: 640px) {
+	header>div{
+		line-height: 90px;
+	}
+	header ul{
+		margin: 0;
+		padding: 0;
+		float: left;
+		display: none;
+		padding-bottom: 20px;
+		border-top: 1px solid #eee;
+		width: 100%;
+	}
+	header ul li{
+		width: 100%;
+		line-height: 36px;
+		padding: 0;
+	}
+	.loging ul li{
+		padding: 0 4px;
+	}
+}

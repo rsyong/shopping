@@ -1,0 +1,93 @@
+
+$(".loging ul li").eq(0).click(function() {
+	$(".mod").eq(1).show().children(".mod_login").show()
+	var n = (window.innerHeight - $(".mod").eq(1).children(".mod_login").height() - 100) / 2;
+	$(".mod").eq(1).children(".mod_login").css("top", n)
+})
+$(".loging ul li").eq(2).click(function() {
+	$(".mod").eq(2).show().children(".mod_login").show()
+	var n = (window.innerHeight - $(".mod").eq(2).children(".mod_login").height() - 100) / 2;
+	$(".mod").eq(2).children(".mod_login").css("top", n)
+})
+$(".xx").click(function() {
+	$(".mod").hide()
+	$(".mod_login").hide()
+	$(".modtwo").hide()
+})
+
+var kucun=[
+	10,20,30,40,50,60,70,80
+]
+var y=0;
+$(".morn img").each(function(){
+	$(this).attr("data-kucun",kucun[y++])
+})
+
+var shuzhi=0;
+$(".morn img").click(function(e) {
+	e.stopPropagation()
+	$(".mod").eq(0).show().children(".modtwo").show();
+	$(".mod").eq(0).children(".modtwo").children(".mod-left").find("img").first().attr("src", $(this).attr("src"));
+	var q = 0;
+	$(".small").empty()
+	$(this).next(".hide").children("span").each(function() {
+		$(".small").append("<img src=" + $(this).html() + " />" + " &nbsp;")
+	})
+	$(".small img").click(function() {
+		$(".mod-left>img").attr("src", $(this).attr("src"))
+	})
+	$(".jiage").html($(this).siblings(".img_text").children(".monye").children("span").html())
+	$(".kucun").html($(this).attr("data-kucun"));
+	$(".numberd").val(1);
+	$("input[name=jian]").click(function(){
+		if($(".numberd").val()>0){
+			$(".numberd").val(parseInt($(".numberd").val())-1)
+		}
+	})
+	var cun=$(this).attr("data-kucun")
+	$("input[name=jia]").click(function(){
+		if(parseInt($(".numberd").val())<cun){
+			$(".numberd").val(parseInt($(".numberd").val())+1)
+		}else{
+			alert("您已超出库存范围")
+		}
+	})
+	$(".gou").click(function(){
+		var img=$(".mod-left img").attr("src")
+		var jiage=$(".jiage").html()
+		var num=$(".numberd").val()
+		if(parseInt($(".numberd").val())>0){
+			$(".numb2").html("("+(++shuzhi)+")")  //加入到购物车
+		}
+	})
+})
+
+
+function zhuce(){
+	$(".mod").eq(1).hide()
+	$(".mod").eq(2).show().children(".mod_login").show()
+	var n = (window.innerHeight - $(".mod").eq(2).children(".mod_login").height() - 100) / 2;
+	$(".mod").eq(2).children(".mod_login").css("top", n)
+}
+
+function loging(){
+	$(".mod").eq(2).hide()
+	$(".mod").eq(1).show().children(".mod_login").show()
+	var n = (window.innerHeight - $(".mod").eq(1).children(".mod_login").height() - 100) / 2;
+	$(".mod").eq(1).children(".mod_login").css("top", n)
+}
+
+var lujing=["../WebCode/index.html","../WebCode/classify.html","../WebCode/Fashion.html",
+	"../WebCode/Best.html","../WebCode/Story.html"
+];
+
+$("header ul li").click(function(){
+	location.href=lujing[$(this).index()]
+})
+
+$(".anniu").click(function(){
+	$("header ul").slideToggle(400)
+})
+
+$("img").addClass("img-responsive")
+$("table img").removeClass("img-responsive")

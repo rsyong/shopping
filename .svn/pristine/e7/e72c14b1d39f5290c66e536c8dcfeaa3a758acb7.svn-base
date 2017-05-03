@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<link rel="stylesheet" href="lib/bootstrap/bootstrap.min.css" />
+<link rel="stylesheet" href="lib/swiper/swiper.min.css" />
+<link rel="stylesheet" href="css/index.css" />
+<link rel="stylesheet" href="css/header.css" />
+<script type="text/javascript" src="lib/jq/jquery-1.12.3.min.js" ></script>
+<title>index</title>
+</head>
+<body>
+	<div class="loging">
+		<div class="container">
+			<ul>
+				<li>请登录</li>
+				<li>/</li>
+				<li>注册</li>
+				<li>/</li>
+				<li>购物车<span class="numb2">(0)</span>
+					<div class="gouwuche_ul">
+						<form class="queding">
+							<input type="submit" value="购买"/>
+						</form>
+					</div>
+				</li>
+				<li>/</li>
+				<li>订单</li>
+			</ul>
+		</div>
+	</div>
+	<header class="container">
+		<div>CLOTHING DESIGN</div>
+		<span class="anniu visible-xs visible-sm">111</span>
+		<ul id="header_ul">
+			<li class="active">首页</li>
+			<li>产品分类</li>
+			<li>时尚资讯</li>
+			<li>热卖专区</li>
+			<li>品牌故事</li>
+		</ul>
+	</header>
+	<div class="banler">
+		<div class="swiper-container">
+	        <div class="swiper-wrapper">
+	            <div class="swiper-slide">
+	            	<img src="img/1.jpg" />
+	            </div>
+	            <div class="swiper-slide">
+	            	<img src="img/2.jpg" />
+	            </div>
+	        </div>
+	        <!-- Add Pagination -->
+	        <div class="swiper-pagination"></div>
+	        <!-- 左右图标按钮 -->
+	        <!--<div class="swiper-button-next"></div>
+	        <div class="swiper-button-prev"></div> -->
+	    </div>
+	</div>
+	<div class="container">
+		<div class="row margintop">
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<div class="">
+					<img class="img-responsive center-block" src="img/3.png" />
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<h2 class="lineheght">品牌故事</h2>
+				<div class="text">我们是一家专注”韩风高品质童装“品牌。以“恬静自由舒适质感”为
+					品牌理念，以“倾听孩子的心声”为品牌宗旨，紧随韩国前沿时尚。致
+					力于3-9岁儿童提供服饰上的韩潮乐园。结合产品的创意设计和优质面
+					料，打造韩风高品质童装第一品牌
+				</div>
+			</div>
+		</div>
+		<div class="row margintop">
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<div class="text-center margintop fonsize">NEW</div>
+				<div class="text-center fonsize">2016秋装上新季</div>
+				<div></div>
+				<div class="margintop text-center marginbot">
+					<span class="btn_a">查看更多</span>
+				</div>
+			</div>
+			<div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
+				<div class="">
+					<img class="img-responsive center-block" src="img/4.png" />
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container-fluid back margintop">
+		<div class="container">
+			<div class="row ed">
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+					<img class="img-responsive" src="img/5.jpg" />
+					<p class="text2 text-center">夏季五折大促销</p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+					<img class="img-responsive" src="img/5.jpg" />
+					<p class="text2 text-center">秋装新款</p>
+				</div>
+				<div class="col-lg-4 col-md-4 col-sm-6 col-xs-6">
+					<img class="img-responsive" src="img/5.jpg" />
+					<p class="text2 text-center">男童专区</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container margintop">
+		<div class="row morn">
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+				<img src="img/6.jpg"/>
+				<div class="hide">
+					<span>img/5.jpg</span>
+					<span>img/6.jpg</span>
+					<span>img/7.jpg</span>
+					<span>img/8.jpg</span>
+				</div>
+				<div class="img_text text-center">
+					<div>女童公主裙夏装2016新</div>
+					<div class="monye">￥<span>101.00</span></div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+				<img src="img/6.jpg" />
+				<div class="hide">
+					<span>img/5.jpg</span>
+					<span>img/6.jpg</span>
+					<span>img/7.jpg</span>
+					<span>img/8.jpg</span>
+				</div>
+				<div class="img_text text-center">
+					<div>女童公主裙夏装2016新</div>
+					<div class="monye">￥<span>102.00</span></div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+				<img src="img/6.jpg" />
+				<div class="hide">
+					<span>img/5.jpg</span>
+					<span>img/6.jpg</span>
+					<span>img/7.jpg</span>
+					<span>img/8.jpg</span>
+				</div>
+				<div class="img_text text-center">
+					<div>女童公主裙夏装2016新</div>
+					<div class="monye">￥<span>103.00</span></div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+				<img src="img/6.jpg" />
+				<div class="hide">
+					<span>img/5.jpg</span>
+					<span>img/6.jpg</span>
+					<span>img/7.jpg</span>
+					<span>img/8.jpg</span>
+				</div>
+				<div class="img_text text-center">
+					<div>女童公主裙夏装2016新</div>
+					<div class="monye">￥<span>104.00</span></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<div class="container margintop">
+		<div class="row morn">
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+				<img src="img/7.jpg" />
+				<div class="hide">
+					<span>img/8.jpg</span>
+					<span>img/6.jpg</span>
+					<span>img/7.jpg</span>
+					<span>img/8.jpg</span>
+				</div>
+				<div class="img_text text-center">
+					<div>女童公主裙夏装2016新</div>
+					<div class="monye">￥<span>105.00</span></div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+				<img src="img/7.jpg" />
+				<div class="hide">
+					<span>img/5.jpg</span>
+					<span>img/6.jpg</span>
+					<span>img/7.jpg</span>
+					<span>img/8.jpg</span>
+				</div>
+				<div class="img_text text-center">
+					<div>女童公主裙夏装2016新</div>
+					<div class="monye">￥<span>106.00</span></div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+				<img src="img/7.jpg" />
+				<div class="hide">
+					<span>img/5.jpg</span>
+					<span>img/6.jpg</span>
+					<span>img/7.jpg</span>
+					<span>img/8.jpg</span>
+				</div>
+				<div class="img_text text-center">
+					<div>女童公主裙夏装2016新</div>
+					<div class="monye">￥<span>107.00</span></div>
+				</div>
+			</div>
+			<div class="col-lg-3 col-md-3 col-sm-6 col-xs-6">
+				<img src="img/7.jpg" />
+				<div class="hide">
+					<span>img/5.jpg</span>
+					<span>img/6.jpg</span>
+					<span>img/7.jpg</span>
+					<span>img/8.jpg</span>
+				</div>
+				<div class="img_text text-center">
+					<div>女童公主裙夏装2016新</div>
+					<div class="monye">￥<span>108.00</span></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer class="margintop">
+		<div class="container">
+			<a href="">首页</a>|
+			<a href="">产品分类</a>|
+			<a href="">时尚资讯</a>|
+			<a href="">热卖专区</a>|
+			<a href="">品牌故事</a>
+			<div class="fo">XXX有限公司</div>
+		</div>
+	</footer>
+	<div class="mod">
+		<div class="modtwo">
+			<div class="xx"><span >X</span></div>
+			<div class="mod-left ">
+				<img class="center-block" src="" />
+				<div class="small"></div>
+			</div>
+			<div class="mod-right">
+				<form>
+					<p class="mod_title">大童连衣裙新款童装儿童裙子韩版棉</p>
+					<div class="list">价格￥<span class="jiage">99.00</span></div>
+					<div class="list">库存量<span class="kucun">0</span></div>
+					<div class="list number">数量  <br class="visible-xs" />
+						<input name="jian" class="input" type="button" value="-"/><input class="numberd" type="button" value="1"/><input name="jia" type="button" value="+"/>
+					</div>
+					<div class="gouwuche margintop">
+						<input class="mai" type="button" value="立即购买"></input>
+						<input class="gou" type="button" value="加入购物车"></input>
+					</div>
+				</form>
+			</div>
+		</div>
+	</div>
+	<div class="mod">
+		<div class="mod_login">
+			<div class="xx"><span >X</span></div>
+			<form>
+				<input type="text" placeholder="手机号" name="phonelogin"/>
+				<input type="password" placeholder="密码" class="pwd1"/>
+				<div class="log"><input type="button" value="登录"/></div>
+				<div class="log_two"><input type="checkbox" checked="checked" value="记住用户名"/>记住用户名<span><a href="#">忘记密码?</a><span class="xian">|</span><a href="javaScript:zhuce()">免费注册</a></span></div>
+			</form>
+		</div>
+	</div>
+	<div class="mod">
+		<div class="mod_login">
+			<div class="xx"><span >X</span></div>
+			<form>
+				<input type="tel" placeholder="请输入手机号码" name="phone"/>
+				<div class="code">
+					<input type="text" placeholder="验证码" class="coded"/>
+					<input type="button" value="获取验证码"  class="coded"/>
+				</div>
+				<input type="password" placeholder="密码" class="pwd2"/>
+				<div class="log"><input type="button" value="注册"/></div>
+				<div class="log_two"><input type="checkbox" checked="checked" value="我已阅读并接受服务条款"/>我已阅读并接受服务条款<span><a href="javaScript:loging()">登录</a></span></div>
+			</form>
+		</div>
+	</div>
+	<script type="text/javascript" src="lib/swiper/swiper.min.js" ></script>
+	<script type="text/javascript" src="js/swi.js" ></script>
+	<script type="text/javascript" src="js/my.js" ></script>
+	<script type="text/javascript" src="js/ajax.js" ></script>
+</body>
+</html>
